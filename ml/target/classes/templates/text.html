@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tóm tắt văn bản</title>
+    <link href="image/logo.jpg" rel="shortcut icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <div class="header">
+<!--        <h1>Tóm tắt văn bản</h1>-->
+    </div>
+    <div class="main-content">
+        <div class="input-form">
+            <form method="post" action="/textSummarize">
+                <textarea id="text" name="text" placeholder="Nhập văn bản cần tóm tắt" rows="10" cols="90" required></textarea >
+                <div class="submit-container">
+                    <input class="submit-button" type="submit" value="Tóm tắt">
+                </div>
+            </form>
+        </div>
+        <div class="result-box">
+            <div class="result-header">
+                <h2>Kết quả tóm tắt</h2>
+            </div>
+            <div class="result-content">
+                <p th:text="${textSummary}"></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
