@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    background-image: url("../image/bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 3px #23203b;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-form {
+    flex: 1;
+    background-color: #fff;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+    font-size: 14px;
+    line-height: 1.5;
+    size: 30px;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.result-box {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    size: 30px;
+    width: auto;
+    border: 1px solid #ccc;
+
+}
+
+.result-header {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+.result-content {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#footer {
+    background-color: rgba(255, 192, 203, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+#footer p {
+    margin: 5px;
+}
+
+#footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button button:hover {
+    background-color: #0056b3;
+}
